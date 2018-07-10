@@ -1,0 +1,36 @@
+
+<br>
+<header class="masthead bg-primary text-white text-center">
+    <div class="container"><br>
+      <h1 class="text-uppercase mb-0">Super Market App</h1>
+      <hr class="star-light">
+    </div>
+</header>
+
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Date </th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of users">
+                <td>{{user.id}}</td>
+                <td>{{user.name}}</td>
+                <td>{{user.quantity}}</td>
+                <td>{{user.date}}</td>
+                <td><button class="btn btn-danger" (click)="deleteItem(user)">Delete</button>
+                    <button class="btn btn-primary" (click)="saveOrUpdateItem(user)">Edit</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <button class="btn btn-primary" (click)="newItem()">New User</button>
+</div>
+
+<hr>
+<footer class="container-fluid bg-4 text-center">
+    <p> Copyright Ⓒ Mukul Jaiswal:All Rights Reserved</p> 
+  </footer>
