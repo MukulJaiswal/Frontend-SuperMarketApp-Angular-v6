@@ -28,3 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 <img src="frontend.png" 
 alt="IMAGE ALT TEXT HERE" width="800" height="400" border="10" />
+
+## License
+
+This project is licensed under the Apache License 2.0  - see the [LICENSE.md](LICENSE.md) file for details
