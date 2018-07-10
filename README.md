@@ -27,4 +27,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 <img src="frontend.png" 
-alt="IMAGE ALT TEXT HERE" width="500" height="400" border="10" />
+alt="IMAGE ALT TEXT HERE" width="800" height="400" border="10" />
